@@ -1,0 +1,71 @@
+/*DEFINICIÓN DE VARIABLES*/
+:root{
+    --color-fondo: #111111;
+    --color-dorado: #FFD700;
+    --color-gris: #1f1f1f;
+    --color-blanco: #ffffff;
+    --font-size-titulos: 30px;
+}
+
+body{
+    background-color: var(--color-fondo);
+}
+
+/*dotted marco punteado*/
+#h1ejemplo{
+    color: var(--color-dorado);
+    border: 4px solid var(--color-dorado);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: var(--font-size-titulos);
+    background-color: var(--color-gris);
+}
+
+p,h1,a{
+    color: var(--color-blanco);
+}
+
+section>h1{
+    color: var(--color-dorado);
+}
+
+.Claseejemplo{
+    color: var(--color-dorado);
+    font-size: 50px;
+    border: 4px solid var(--color-dorado);
+    background-color: var(--color-gris);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.clase2{
+    color: var(--color-dorado);
+}
+
+/*PSEUDO CLASES*/
+#h1ejemplo:hover{
+    color: black;
+    background-color: var(--color-dorado);
+    border: 4px solid white;
+}
+
+/*BOTONES*/
+.button{
+    background-color: var(--color-dorado);
+    color: black;
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.button:hover{
+    background-color: #e6c200;
+    color: black;
+}
+
+.button:active{
+    background-color: #b8860b;
+    color: white;
+}
+
